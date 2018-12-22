@@ -1,0 +1,43 @@
+#play{
+    margin: 0 auto;
+    border: 1px solid white;
+    font-size: 0;
+    width: 156px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.block{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 10, 226);
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 26px;
+    text-align: center;
+    align-items: center;
+}
+.block:hover{
+    background: #DCDCDC;
+}
+#step{
+    text-align: center;
+    padding: 20px;
+}
+#button{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(219, 10, 226);
+    border: none;
+}
+#statistics{
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    border: 1px solid;
+    padding: 0 20px;
+    display: inline-block;
+}
